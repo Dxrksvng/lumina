@@ -1,0 +1,10 @@
+# Block the private implementation repo from ever being pushed to this public outer repo.
+lumina-impl/
+
+# Block any other private/local notes.
+.env
+.env.*
+!.env.example
+.claude/
+.DS_Store
+*.local.md
